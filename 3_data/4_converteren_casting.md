@@ -62,7 +62,7 @@ double kommagetal = 13.8;
 int kommaNietWelkom = (int)kommagetal;
 ```
 
-Hierbij dien je aan de compiler te zeggen: "Volgende variabele die van het type ``double`` is, moet aan deze variabele van het type ``int`` toegekend worden. **Ik besef dat hierbij data verloren kan gaan (namelijk het deel na de komma), maar zet de variabele toch maar om naar het nieuwe type, ik draag alle verantwoordelijkheid voor het verlies"**.
+Hierbij dien je aan de compiler te zeggen: "Volgende variabele die van het type ``double`` is, moet aan deze variabele van het type ``int`` toegekend worden. **"Ik besef dat hierbij data verloren kan gaan (namelijk het deel na de komma), maar zet de variabele toch maar om naar het nieuwe type, ik draag alle verantwoordelijkheid voor het verlies"**.
 
 {% hint style='tip' %}
 Het is als het ware een soort Amerikaanse reflex om te voorkomen dat de compiler later door ons kan aangeklaagd worden omdat hij uiterst belangrijke data heeft doen verloren gaan tijdens de omzetting. Via casting geven we aan dat we de compiler niet zullen aanklagen.
